@@ -19,7 +19,7 @@ export class StatementProcessorComponent implements OnInit {
   rowsPerPageList: Number[] = Constants.RowsPerPageList;
   defaultRowsPerPage: Number = Constants.DefaultRowsPerPage;
 
-  constructor(private _fileUtil: FileUtil
+  constructor(public _fileUtil: FileUtil
   ) { }
 
   ngOnInit() { }
